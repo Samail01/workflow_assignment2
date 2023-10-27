@@ -5,7 +5,7 @@ import { reverse, capitalize } from "./components/strings.mjs";
 import dotenv from "dotenv";
 dotenv.config();
 
-const addResult = add(10, 10);
+const addResult = add(33, 33);
 console.log(addResult);
 
 const multiplyResult = multiply(10, 10);
