@@ -7,3 +7,6 @@ dotenv.config();
 
 const addResult = add(10, 10);
 console.log(addResult);
+
+const multiplyResult = multiply(10, 10);
+console.log(multiplyResult);
