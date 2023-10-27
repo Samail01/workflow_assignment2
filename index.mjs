@@ -10,3 +10,9 @@ console.log(addResult);
 
 const multiplyResult = multiply(10, 10);
 console.log(multiplyResult);
+
+
+const usdAmount = 500;
+const eurAmount = usdToEur(usdAmount);
+console.log(`${usdAmount} USD is ${eurAmount} EUR`);
+
